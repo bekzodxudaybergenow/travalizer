@@ -82,3 +82,36 @@ body {
 .traval-image img {
     margin: 188px 123px;
 }
+
+// FORM SECTION
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input--copy {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--DEEP-MOSS-GREEN);
+    margin-bottom: 6px;
+}
+
+.form-input--input {
+    height: 56px;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid var(--JET-STREAM);
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--DEEP-MOSS-GREEN);
+    margin-bottom: 24px;
+}
+
+.btns {
+}
+.form-login--link {
+}
+.form-signup--link {
+}
