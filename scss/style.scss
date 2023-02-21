@@ -109,6 +109,43 @@ body {
     margin-bottom: 24px;
 }
 
+.form-input--input::placeholder {
+    color: var(--DEEP-MOSS-GREEN);
+}
+
+.form-password {
+    position: relative;
+    border: 1px solid var(--JET-STREAM);
+    height: 56px;
+    margin-bottom: 24px;
+    border-radius: 6px;
+}
+
+.form-password input {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border: 0;
+    right: 50px;
+    padding-left: 16px;
+    outline: none;
+    color: var(--DEEP-MOSS-GREEN);
+    font-size: 24px;
+}
+
+.form-password img {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    cursor: pointer;
+}
+
+.eye-icon {
+    width: 24px;
+    height: 24px;
+}
+
 .btns {
 }
 .form-login--link {

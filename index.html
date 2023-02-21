@@ -23,7 +23,10 @@
                         <label class="form-input--copy">Email</label>
                         <input class="form-input--input" type="text" placeholder="robert.langster@gmail.com">
                         <label class="form-input--copy">Password</label>
-                        <input class="form-input--input" type="password" value="qwertyui" style="font-size: 24px;">
+                        <div class="form-password">
+                            <input class="password" type="password" value="password">
+                            <img class="eye-icon" onclick="showHide()" src="./img/off.png" alt="Eye off">
+                        </div>
                         <div>
                             <input type="checkbox">
                             <label>Remember me</label>
@@ -41,5 +44,6 @@
             </div>
         </div>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
