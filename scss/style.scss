@@ -3,6 +3,7 @@
 :root {
     --BANGLADESH-GREEN: #007549;
     --DEEP-MOSS-GREEN: #355B3E;
+    --GREEN-CYAN: #029664;
     --AXOLOTL: #58745E;
     --JET-STREAM: #B8D6BF;
     --CHARCOAL: #2F3D4C;
@@ -20,6 +21,7 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--DEEP-MOSS-GREEN);
+    font-size: 16px;
 }
 
 .wrapper {
@@ -146,9 +148,65 @@ body {
     height: 24px;
 }
 
+.form-checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.form-checkbox label {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    cursor: pointer;
+}
+
+.checkbox input{
+    accent-color: var(--GREEN-CYAN);
+    width: 16px; 
+    height: 16px;
+}   
+.checkbox label {
+    color: var(--DEEP-MOSS-GREEN);
+}
+
+.form-checkbox a {
+    color: var(--DEEP-MOSS-GREEN);
+}
+
 .btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.form-login--link {
+
+.btn-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 16px;
+    font-weight: 600;
+    background-color: var(--GREEN-CYAN);
+    color: var(--WHITE);
+    text-decoration: none;
+    transition: .2s;
 }
+
+.form-login--link:hover {
+    background-color: var(--BANGLADESH-GREEN);
+}
+
 .form-signup--link {
+    background-color: var(--WHITE);
+    color: var(--GREEN-CYAN);
+    border: 1px solid var(--GREEN-CYAN);
+
+    &:hover{
+        background-color: var(--GREEN-CYAN);
+        color: var(--WHITE);
+    }
 }
