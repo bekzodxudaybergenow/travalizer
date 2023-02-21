@@ -212,4 +212,32 @@ body {
 .form-signup--link:hover {
   background-color: var(--GREEN-CYAN);
   color: var(--WHITE);
+}
+
+.social {
+  margin-top: 56px;
+}
+
+.social-list {
+  display: flex;
+  list-style: none;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+}
+
+.social-list--link.social-list-login--link {
+  color: var(--AXOLOTL);
+  font-weight: 400;
+}
+.social-list--link.social-list-login--link:hover {
+  color: var(--DEEP-MOSS-GREEN);
+}
+
+.social-list--link {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--DEEP-MOSS-GREEN);
+}
+.social-list--link:hover {
+  color: var(--AXOLOTL);
 }/*# sourceMappingURL=style.css.map */

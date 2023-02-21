@@ -210,3 +210,33 @@ body {
         color: var(--WHITE);
     }
 }
+
+// SOCIAL
+.social {
+    margin-top: 56px;
+}
+
+.social-list {
+    display: flex;
+    list-style: none;
+    column-gap: 24px;
+}
+
+.social-list--link.social-list-login--link {
+    color: var(--AXOLOTL);
+    font-weight: 400;
+
+        &:hover {
+            color: var(--DEEP-MOSS-GREEN);
+        }
+}
+
+.social-list--link {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--DEEP-MOSS-GREEN);
+
+        &:hover {
+            color: var(--AXOLOTL);
+        }
+}
