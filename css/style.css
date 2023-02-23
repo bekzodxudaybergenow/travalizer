@@ -11,6 +11,94 @@
   --WHITE: #FFFFFF;
 }
 
+@media only screen and (max-width: 1366px) {
+  body {
+    font-size: 14px;
+  }
+  body .wrapper-row {
+    max-width: 1200px;
+    min-height: 600px;
+  }
+  body .container {
+    padding: 40px 40px 26px;
+  }
+  body .traval-content {
+    max-width: 500px;
+  }
+  body .traval-content-header {
+    margin-bottom: 12px;
+  }
+  body .traval-content-header--link {
+    margin-bottom: 16px;
+  }
+  body .traval-content-header--link img {
+    width: 120px;
+    height: 28px;
+  }
+  body .traval-content-header--copy {
+    font-size: 14px;
+  }
+  body .form-input--input {
+    height: 46px;
+  }
+  body .form-password {
+    height: 46px;
+  }
+  body .checkbox {
+    font-size: 14px;
+  }
+  body .form-checkbox a {
+    font-size: 14px;
+  }
+  body .btn-item {
+    width: 180px;
+    height: 42px;
+  }
+  body .social-list {
+    font-size: 14px;
+  }
+  body .traval-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ALMOND);
+    text-align: center;
+  }
+  body .traval-image img {
+    width: 500px;
+    height: 333px;
+    margin: 40px 0;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  body .wrapper {
+    padding: 0;
+  }
+  body .wrapper-row {
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 0;
+  }
+  body .traval-content {
+    order: 2;
+  }
+  body .traval-image {
+    order: 1;
+  }
+}
+@media only screen and (max-width: 516px) {
+  body .traval-image img {
+    width: 380px;
+    height: 233px;
+  }
+  body .btns {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  body .btn-item {
+    width: 100%;
+  }
+}
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -27,9 +115,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1440px;
+  max-width: 1520px;
   min-height: 100vh;
   margin: 0 auto;
+  padding: 0 40px;
 }
 
 .wrapper-row {
@@ -70,7 +159,6 @@ body {
 
 .traval-content-header--copy {
   font-weight: 400;
-  font-size: 16px;
   line-height: 16px;
   color: var(--AXOLOTL);
 }

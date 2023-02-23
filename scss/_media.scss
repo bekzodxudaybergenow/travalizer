@@ -1,0 +1,114 @@
+@media only screen and (max-width: 1366px){
+    body {
+        font-size: 14px;
+
+        .wrapper-row {
+            max-width: 1200px;
+            min-height: 600px;
+        }
+
+        .container {
+            padding: 40px 40px 26px;
+        }
+
+        .traval-content {
+            max-width:  500px;
+        }
+
+        .traval-content-header {
+            margin-bottom: 12px;
+        }
+
+        .traval-content-header--link{
+            margin-bottom: 16px;
+        }
+
+        .traval-content-header--link img {
+            width: 120px;
+            height: 28px
+        }
+
+        .traval-content-header--copy {
+            font-size: 14px;
+        }
+
+        .form-input--input {
+            height: 46px;
+        }
+
+        .form-password{
+            height: 46px;
+        }
+
+        .checkbox{
+            font-size: 14px;
+        }
+
+        .form-checkbox a  {
+            font-size: 14px;
+        }
+
+        .btn-item {
+            width: 180px;
+            height: 42px;
+        }
+
+        .social-list {
+            font-size: 14px;
+        }
+
+        // Image section
+        .traval-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--ALMOND);
+            text-align: center;
+        }
+
+        .traval-image img {
+            width: 500px;
+            height: 333px;
+            margin: 40px 0;
+        }
+    }
+    
+}
+@media only screen and (max-width: 1100px){
+    body {
+        .wrapper {
+            padding: 0;
+        }
+        .wrapper-row {
+            flex-wrap: wrap;
+            justify-content: center;
+            border-radius: 0;
+        }
+    
+        .traval-content {
+            order: 2;
+        }
+    
+        .traval-image {
+            order: 1;
+        }
+    }
+}
+
+@media only screen and (max-width: 516px) {
+    body {
+        .traval-image img {
+            width: 380px;
+            height: 233px;
+        }
+
+        .btns {
+            flex-direction: column;
+            row-gap: 10px;
+        }
+
+        .btn-item {
+            width: 100%;
+        }
+    }
+}
